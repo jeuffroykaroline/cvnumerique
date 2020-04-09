@@ -10,43 +10,51 @@
         <meta name="description" content="CV numérique Karoline Jeuffroy">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="assets/css/style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet"> 
-        
-        
+        <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">    
     </head>
 
-    <body>
-        <header><!--balise Header, en tête de notre page, qui comprendra notre image et notre titre,nos style css sont tous appliqués ici.-->
-            
-           <div class="name">
-               <h1>KAROLINE<br>
-                   JEUFFROY</h1> 
-            </div>
 
-                <nav> <!--balise de navigation-->
-                    <ul>
+
+<body>
+    <section class="police">
+
+
+<header>
+
+        <!--balise Header, en tête de notre page, qui comprendra notre image et notre titre,nos style css sont tous appliqués ici.-->  
+           
+
+        <div class="name">KAROLINE<br>JEUFFROY</div>
+
+            <div class="menu">
+                    <nav> 
+                        <ul>
                         <li><a href="#home">Acceuil</a></li>
                         <li><a href="#presentation">Présentation</a></li>
                         <li><a href="#experiences">Expériences</a></li>
                         <li><a href="#achievements">Réalisations</a></li>
                         <li><a href="#skills">Compétences</a></li>
                         <li><a href="#contact">Contact</a></li>   
-                    </ul>
+                        </ul>
                  </nav>
-        </header>
+            </div>
+</header>
 
 
-        <section>  
+        
        
-<!--Page D'acceuil Pieuvre + texte " web design-->
-       
-        <article id="home"> 
-            <img src="assets/images/octopus.png" alt="Octopus couteau suisse">
+<!--Page D'acceuil Pieuvre + texte " web design "-->
 
-            <p><h2>WEB DESIGNER </h2><br>
-            C'est être le couteau suisse du numérique</p>
+<section id="home">  
 
-        </article> 
+        <article class="homeimg"> 
+            <img src="assets/images/octopus.gif" alt="Octopus couteau suisse"></article> 
+
+        <article class="hometxt"> 
+             <h2>WEB DESIGNER </h2><br>
+             <p> C'est être le couteau suisse du numérique</p></article> 
+</section>
+
 
 <!--FIN DE LA PAGE D'ACCEUIL-->
 
@@ -55,12 +63,17 @@
 
 <!--PAGE DE PRESENTATION -->
 
-        <article id="presentation">
-            <p class="textPresentation"> Après Avoir fait mes études aux Beaux Arts du Havre et Paris, j'ai pu exercé mon Art et suis actuellement représentée par la Galerie Géraldine Banier à Paris 6.<br>
-                A côté de ça, j'ai exercé comme assistante auprès de mon professeur de moulage à l'ENSBA ( école Nationale Supérieure des Beaux Arts de Paris) et j'ai exercé plusieurs emplois chez Avril Gau, Beneteau...<br>
-                Aujourd'hui je suis une formation dans le web design afin de combiner ma première passion pour les arts, l'esthétique et le graphisme aux métiers du numérique en pleine expension.
-             </p>
-             <img class="moi"src="assets/images/moi.png" alt="portrait karoline jeuffroy">
+
+ <section id="presentation">
+
+           <article class="textPresentation">
+                <p> Après des études aux Beaux-Arts Paris et du Havre, j'ai trouvé une galerie qui me représente actuellement.<br>
+                                        Mon Parcours atypique m'a amené à travailler dans différents secteurs : du textile au naval en passant par les Arts.<br>
+                                        C'est tout naturellement qu'aujourd'hui je me suis orientée dans le Web Design afin de concillier l'esthétisme et le numérique.</p> </article>
+
+            <article class="imgPresentation">                           
+                <img class="moi"src="assets/images/moi.png" alt="portrait karoline jeuffroy"></article>
+ </section>
 
 
         
@@ -69,22 +82,35 @@
 
 
 <!-- PAGE D'EXPERIENCES-->
-
-    <article id="experiences">
-
-<nav> 
-    <ul>
-        <li><a href="#art">Art</a></li>
-        <li><a href="#other">Autres</a></li>
-        <li><a href="#training">Formations</a></li>   
-    </ul>
+<section id="experiences">
 
 
- </article>
+    
+
+     <article class="button">
+            <a href="#art" class="button">Art</a>
+            
+                <!-- a mettre en non visible et visible quand on clic sur " art "
+
+                <li><a href="#expositions">Expositions</a></li>
+                <li><a href="#media">Publications</a></li>
+                <li><a href="#other">Autres</a></li> -->
+
+           
+
+            <a href="#orther" class="button">Other</a>
+            <a href="#training" class="button">Formations</a>
+
+    </article>
+
+</section>
+
+<!-- FIN PAGE D'EXPERIENCES-->
 
 
 
-
+<!-- PAGE D'EXPERIENCES-->
+<section id="achievements"
 
 
         

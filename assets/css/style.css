@@ -1,23 +1,31 @@
 
+.police{
+    font-family: 'Bungee Inline', cursive;  
+}
+
 header{
-    display: flex ; /* mettre a côté les uns les autres */
-    align-items: center; 
+    display: flex;
+    flex-direction: row;
 }
 
-h1{
-    font-size: 100px;
-    margin: 100px;
-    padding: 89px;
-    font-family: 'Bungee Inline', cursive;
+.name {
+    font-size: 30px;
+    margin: 50px;
+    padding: 35px;
 }
 
-ul{
+.menu {
+    display: flex;
+    align-items: center ; 
+    justify-content: flex-end;
+}
+
+ul {
     list-style-type: none; /**retire la liste à puces**/
     display:flex;
     justify-content: space-around;
-    font-size: 40px; 
-    text-align: center;  
-    flex: right;   
+    font-size: 10px; 
+    text-align: center;
 }
 
 li a {
@@ -30,12 +38,29 @@ li a {
     text-decoration: none;
 }
 
+
 #home
 {
     display: flex;
+    margin: 0px
 }
 
+#hometxt{
+
+    font-size: 10px;
+    padding-block: 250px 250px;
+    
+}
+
+
+
+
+
+
+
 /* FIN DE LA PAGE D'ACCEUIL */
+
+
 
 
 /*PAGE DE PRESENTATION */
@@ -43,15 +68,16 @@ li a {
 #presentation{
     background-color: black;
     color: white;
-    margin: 357px;
-    padding: 390px;
-    font-size: 40px;
+    margin: 50px;
+    padding: 35px;
+    font-size: 10px;
     display:flex;
 }
 
 .moi{
-    width: 500px;
-    height: 500px;
+    display: flex;
+    width: 100px;
+    height: 100px;
 }
     
 /*FIN DE PAGE DE PRESENTATION */
@@ -62,5 +88,22 @@ li a {
 
 
 /* PAGE D EXPERIENCES*/
+
+
+
+.button {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        color: white;
+        background-color: black;
+        font-size: 60px;
+        
+    }
+
+
+
+   
 
 
