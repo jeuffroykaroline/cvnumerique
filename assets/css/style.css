@@ -2,17 +2,14 @@
 header{
     display: flex ; /* mettre a côté les uns les autres */
     align-items: center; 
-    }
+}
 
 h1{
     font-size: 100px;
     margin: 100px;
     padding: 89px;
     font-family: 'Bungee Inline', cursive;
-
 }
-
-
 
 ul{
     list-style-type: none; /**retire la liste à puces**/
@@ -20,9 +17,7 @@ ul{
     justify-content: space-around;
     font-size: 40px; 
     text-align: center;  
-    flex: right;
-
-    
+    flex: right;   
 }
 
 li a {
@@ -43,8 +38,6 @@ li a {
 /* FIN DE LA PAGE D'ACCEUIL */
 
 
-
-
 /*PAGE DE PRESENTATION */
 
 #presentation{
@@ -55,6 +48,7 @@ li a {
     font-size: 40px;
     display:flex;
 }
+
 .moi{
     width: 500px;
     height: 500px;
@@ -65,6 +59,8 @@ li a {
 
 
 
+
+
 /* PAGE D EXPERIENCES*/
 
-#experiences
+
