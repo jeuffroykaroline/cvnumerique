@@ -3,6 +3,8 @@
     font-family: 'Bungee Inline', cursive;  
 }
 
+/*//////////////////// HEADER: Barre menu + " karoline jeuffroy " //////////////*/
+
 header{
     display: flex;
     flex-direction: row;
@@ -37,23 +39,31 @@ li a {
     text-align: center;
     text-decoration: none;
 }
+/*/////////////////////////FIN Barre Menu + En tête " Karoline Jeuffroy ///////////////*/
+
+
+
+/*///////////////////////Page Acceuil Ocotpus + texte " web designer " ///////////////*/
 
 
 #home
 {
     display: flex;
-    margin: 0px
 }
 
-#hometxt{
-
-    font-size: 10px;
-    padding-block: 250px 250px;
-    
+.homeimg{
+    width: 70%;
+  height: auto;  
+  display: flex;
+  vertical-align:center;
 }
 
-
-
+.title {
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        margin: auto;
+    }
 
 
 
@@ -68,16 +78,19 @@ li a {
 #presentation{
     background-color: black;
     color: white;
-    margin: 50px;
-    padding: 35px;
+    margin: 300px;
+    padding: 25px;
     font-size: 10px;
     display:flex;
+    align-items: center;
 }
 
 .moi{
     display: flex;
     width: 100px;
     height: 100px;
+    margin: 0px 50px;
+    
 }
     
 /*FIN DE PAGE DE PRESENTATION */
@@ -89,18 +102,36 @@ li a {
 
 /* PAGE D EXPERIENCES*/
 
+#experiences{
+    
+    margin: 300px;
+    padding: 25px;
+    font-size: 10px;
+    display:flex;
+    align-items: center;
+}
+
+#menu2 {
+    list-style-type: none; /**retire la liste à puces**/
+    display:flex;
+    text-align: center;
+    
+}
+
+.m2{
+    font-size: 30px;
+    justify-content: space-around;
+    
+}
 
 
-.button {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        text-align: center;
-        color: white;
-        background-color: black;
-        font-size: 60px;
-        
-    }
+.menuArt{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 
 
 
